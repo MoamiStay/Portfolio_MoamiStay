@@ -7,16 +7,16 @@ import Pattern from "./Components/Pattern/Index";
 import About from "./Components/Aboutme/About";
 
 const App = () => {
-    return (
-        <>
-        <Header />
-        <Introduction />    
-        <Cards /> 
-        <About/> 
-        <Pattern />
-        <Footer /> 
-        </>
-    )
-}
+  return (
+    <>
+      <Header />
+      <Introduction />
+      <Cards />
+      <About />
+      <Pattern />
+      <Footer />
+    </>
+  );
+};
 
 export default App;
