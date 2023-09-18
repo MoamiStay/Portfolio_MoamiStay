@@ -19,16 +19,14 @@ const About = () => {
       <Lottie
         onComplete={() => stopAnimationAtTime(2)}
         lottieRef={phoneRef}
-        // loop={false}
         animationData={animationData}
       />
     </MobileAnimation>
-{/* </AniContainer> */}
 
         <div className="textBox">
           <Container>
             <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
-              <PfImg src="/pf-pic_dark.png" alt="profile picture" />
+              <PfImg src="./pfimg.png" alt="profile image" />
               <p>Regine</p>
             </div>
             <AboutText>

@@ -1,20 +1,5 @@
 import styled from "styled-components";
 
-// export const AniContainer = styled.div`
-//   max-width: 100%;
-//   margin: 100px auto 0 auto;
-//   display: flex;
-//   justify-content: flex-end;
-// `;
-
-// export const DesktopAnimation = styled.div`
-//   display: none;
-//   @media screen and (min-width: 1200px) {
-//     display: block;
-//     max-width: 35%;
-//   }
-// `;
-
 export const MobileAnimation = styled.div`
   display: flex;
   max-width: 100%;
