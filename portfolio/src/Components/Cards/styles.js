@@ -1,29 +1,34 @@
 import styled from "styled-components";
 
-export const Container = styled.section`
-  margin-top: 50px;
+export const Header = styled.div`
   display: flex;
-  background-color: #251543;
-  border-radius: 30px;
-
-  @media screen and (max-width: 860px) {
-    flex-direction: column;
-  }
-`;
-
-export const Card = styled.div`
-  margin: 25px;
-  @media screen and (min-width: 611px) {
-    width: 100%;
-  }
-`;
-
-export const ImgContainer = styled.div`
-  max-width: 15rem;
+  justify-content: space-between;
 `;
 
 export const Img = styled.img`
   width: 100%;
   max-height: 300px;
   object-fit: contain;
+  position: relative;
+  top: 30px;
+`;
+
+export const Bg = styled.div`
+  @media screen and (max-width: 610px) {
+    width: 100%;
+    background-color: #180b33;
+  }
+`;
+
+export const Eval = styled.div`
+  line-height: 20px;
+  font-size: 1rem;
+  font-weight: 300;
+  margin: -60px auto 0 auto;
+  max-width: 60%;
+  text-align: left;
+`;
+
+export const CardContainer = styled.div`
+  max-width: 60%;
 `;

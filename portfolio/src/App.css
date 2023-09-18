@@ -29,6 +29,27 @@ h1 {
   margin: auto;
 }
 
+.icons {
+  color: rgb(255, 153, 52);
+  margin: 15px 15px 0 0;
+  transition: 0.2s ease-in-out;
+}
+
+.icons:hover {
+  color: #ffffff;
+}
+
+.cardLink {
+  transition: 0.2s ease-in-out;
+  margin-top: -10px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.cardLink:hover {
+  color: orange;
+}
+
 @media only screen and (max-width: 860px) {
   .textBox {
     max-width: 70%;

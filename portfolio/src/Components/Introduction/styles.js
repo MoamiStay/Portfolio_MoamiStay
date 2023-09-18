@@ -22,6 +22,15 @@ export const DesktopAnimation = styled.div`
 
 export const MobileAnimation = styled.div`
   display: flex;
+  max-width: 100%;
+  @media screen and (min-width: 405px) {
+    max-width: 70%;
+    margin: 0;
+  }
+  @media screen and (min-width: 610px) {
+    margin: auto;
+    margin-left: 300px;
+  }
   @media screen and (min-width: 1200px) {
     display: none;
   }

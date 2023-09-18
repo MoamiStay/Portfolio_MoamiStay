@@ -39,3 +39,13 @@ https://lottiefiles.com/animations/laptop-9aCvr2jgX3
   npm i --save @fortawesome/react-fontawesome@latest
   Free brands:
   npm i --save @fortawesome/free-brands-svg-icons
+  LottieInteractivity:
+  npm install --save @lottiefileslottie-interactivity
+
+Refs:
+
+Email ani: https://lottiefiles.com/animations/contact-email-RjSzE8khse
+
+About me ani: https://lottiefiles.com/animations/girl-working-on-computer-P8it6YD4ix
+
+Computer ani: https://lottiefiles.com/animations/custom-development-JWXYPksWwq
