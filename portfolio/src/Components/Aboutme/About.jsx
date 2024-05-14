@@ -15,7 +15,7 @@ const About = () => {
 
     return (
         <>
-    <MobileAnimation>
+    <MobileAnimation style={{marginTop: "150px"}}>
       <Lottie
         onComplete={() => stopAnimationAtTime(2)}
         lottieRef={phoneRef}

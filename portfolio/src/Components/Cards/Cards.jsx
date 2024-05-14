@@ -18,7 +18,7 @@ const Cards = () => {
   <Carousel dotPosition={"top"} autoplay>
     <div>
       <h3 style={contentStyle}>
-        <Link to="https://holidaze-moami.netlify.app/" target="_blank"><Img src="./holidaze.png" alt="" /></Link>
+        <Img src="./holidaze.png" alt="" />
         <details>
           <summary className="cardLink">HOLIDAZE</summary>
           <Bg>
@@ -45,9 +45,11 @@ const Cards = () => {
         </details>
       </h3>
     </div>
-    <div>
+
+    {/* BIDWELL  */}
+    {/* <div>
       <h3 style={contentStyle}>
-        <Link to="https://exam-auction-regine.netlify.app/" target="_blank"><Img src="./bidwell.png" alt="" /></Link>
+        <Img src="./bidwell.png" alt="" />
         <details>
           <summary className="cardLink">BIDWELL</summary>
           <Bg>
@@ -76,10 +78,12 @@ const Cards = () => {
           </Bg>
         </details>
       </h3>
-    </div>
-    <div>
+    </div> */}
+
+    {/* KAGE */}
+    {/* <div>
       <h3 style={contentStyle}>
-        <Link to="https://kage-main.netlify.app/" target="_blank"><Img src="./kage.png" alt="" /></Link>
+        <Img src="./kage.png" alt="" />
          <details>
           <summary className="cardLink">KAGE</summary>
           <Bg>
@@ -105,10 +109,11 @@ const Cards = () => {
           </Bg>
         </details>
         </h3>
-    </div>
+    </div> */}
+
     <div>
       <h3 style={contentStyle}>
-        <Link to="https://woodz.netlify.app/" target="_blank"><Img src="./woodz.jpg" alt="" /></Link>
+        <Img src="./woodz.jpg" alt="" />
         <details>
           <summary className="cardLink">WOODZ</summary>
           <Bg>
@@ -135,7 +140,7 @@ const Cards = () => {
     </div>
     <div>
       <h3 style={contentStyle}>
-        <Link to="https://community-museum-exam.netlify.app/" target="_blank"><Img src="./museum.jpg" alt="" /></Link>
+        <Img src="./museum.jpg" alt="" />
         <details>
           <summary className="cardLink">COMMUNITY MUSEUM</summary>
           <Bg>
