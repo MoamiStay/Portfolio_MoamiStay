@@ -1,10 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import { Carousel } from 'antd';
 
 import { Img, Eval, Header, Bg, CardSection, ContentStyle } from "./styles";
 
-const Cards = () => {
+const Websites = () => {
   return (
     <CardSection>
          <div>
@@ -91,6 +90,6 @@ const Cards = () => {
       </div>
     </CardSection>
   )
-}
+};
 
-export default Cards;
+export default Websites;

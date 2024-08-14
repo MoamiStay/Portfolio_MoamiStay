@@ -40,6 +40,10 @@ export const Img3 = styled.img`
     right: 0;
     top: 800px;
   }
+  @media screen and (min-width: 2000px) {
+    top: 1000px;
+    width: 15%;
+  }
 `;
 
 export const Img4 = styled.img`
@@ -48,10 +52,16 @@ export const Img4 = styled.img`
   position: absolute;
   left: 0;
   top: 1150px;
-  @media screen and (max-width: 611px) {
+   @media screen and (max-width: 611px) {
     width: 40%;
-    position: absolute;
-    left: 0;
     top: 1450px;
   }
+  @media screen and (min-width: 1200px) {
+    top: 800px;
+  } 
+  @media screen and (min-width: 2000px) {
+    top: 1000px;
+    width: 10%;
+  }
+
 `;

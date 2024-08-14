@@ -1,8 +1,6 @@
 import { Container, AniContainer, BottomFooter, TextBox } from "./styles";
 import LottieInteractivity from "./LottieInteractivity";
 
-
-
 const Footer = () => {
 
   return (
@@ -57,13 +55,10 @@ const Footer = () => {
       <p>Photoshop</p>
       <p>CSS3 + HTML5 + Javascript</p>
       <p>React + Redux</p>
-      <p>Typescript</p>
+      <p></p>
       <p>Microsoft office</p>
       </TextBox>
       </div>
-
-
-
     </BottomFooter>
     </>
     )

@@ -56,3 +56,12 @@ margin: auto;
     grid-template-columns: 1fr;
   }
 `;
+
+export const MenuItems = styled.div`
+display: flex;
+justify-content: space-around;
+width: 20%;
+margin: auto;
+padding-top: 50px;
+
+`;

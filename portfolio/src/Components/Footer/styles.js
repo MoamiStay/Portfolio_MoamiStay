@@ -25,7 +25,7 @@ export const AniContainer = styled.div`
 `;
 
 export const BottomFooter = styled.footer`
-width: 100%;
+margin-top: 100px;
 display: flex;
 justify-content: space-around;
 background-color: #180b33;
