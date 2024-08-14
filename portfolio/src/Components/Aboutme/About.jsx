@@ -30,7 +30,7 @@ const About = () => {
               <p>Regine</p>
             </div>
             <AboutText>
-              <p>Born in 96' in Stavanger city, raised in a small town surrounded by mountains named Eide, currently stationed in the seaside city of Bergen, Norway.</p>
+              {/* <p>Born in 96' in Stavanger city, raised in a small town surrounded by mountains named Eide, currently stationed in the seaside city of Bergen, Norway.</p> */}
               <p>In 2021 I decided to try my hand at web development and enrolled in a 2 year Front-End degree at Noroff which I proudly graduated from in June of 2023.</p>
               <p>I would say I excell in the design, layout and visual planning aspects of Front-End as that is what I enjoy the most.</p>
               <p>I find planning, prototyping and creating logos to be satisfying and fun work. Using shapes, colors and images to create visually interesting and practical websites is what I hope I get to work with and aquire improved skills and deeper knowledge.</p>

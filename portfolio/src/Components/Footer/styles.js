@@ -23,3 +23,16 @@ export const AniContainer = styled.div`
     max-width: 10%;
   }
 `;
+
+export const BottomFooter = styled.footer`
+width: 100%;
+display: flex;
+justify-content: space-around;
+background-color: #180b33;
+`;
+
+export const TextBox = styled.div`
+margin-top: 10px;
+font-size: small;
+padding: 3px;
+`;
